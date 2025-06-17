@@ -16,13 +16,14 @@ CredSentinel is a CLI-based password strength and breach analyzer that combines 
 4. Checks HIBP API for breach count
 5. Displays results with color-coded feedback
 
+## Note:
+This tool uses a local file common_passwords.txt for blacklist checking. Please download or place it in the root folder manually.
+
 ## Installation
 
 ```bash
 git clone https://github.com/0xCyberSleuth/CredSentinel.git
 cd CredSentinel
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python cli.py
 ```
