@@ -17,7 +17,7 @@ CredSentinel is a CLI-based password strength and breach analyzer that combines 
 5. Displays results with color-coded feedback
 
 ## Note:
-This tool uses a local file common_passwords.txt for blacklist checking. Please download or place it in the root folder manually.
+This tool uses a local file common_passwords.txt (rockyou.txt wordlist) for blacklist checking. Please download or place it in the root folder manually.
 
 ## Installation
 
